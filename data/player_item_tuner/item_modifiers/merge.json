@@ -1,0 +1,14 @@
+{
+    "function": "copy_nbt",
+    "source": {
+        "type": "storage",
+        "source": "player_item_tuner:"
+    },
+    "ops": [
+        {
+            "source": "result.merge.tag",
+            "target": "{}",
+            "op": "merge"
+        }
+    ]
+}
