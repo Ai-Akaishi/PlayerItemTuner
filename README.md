@@ -100,6 +100,7 @@ Slotが昇順になるように(但しoffhandの-106bは最後)アイテムを�
 
 0. カスタム置き換えから呼び出されるようにfunction tagを設定します。(準備)
 ```json
+<YourDatapackFolder>/data/player_item_tuner/tags/functions/custom/plugins  
 {
 	"replace": false,
 	"values": [
@@ -117,7 +118,7 @@ function #player_item_tuner:custom/inventory
 ```
 3. 0で指定したfunction tagが呼び出されるので、その中でプラグインタグを判別して処理します。  
 ```nim
-<my_datapack:tune_items>
+<YourDatapackFolder>/data/my_datapack/functions/tune_items  
 execute if data stoarge player_item_tuner: {custom:"MyDatapack"} run function my_datapack:tune_items/check
 ```
 4. 3で呼び出されたfunction内でアイテムをチェックして、置き換えが必要なら置き換えます。  
