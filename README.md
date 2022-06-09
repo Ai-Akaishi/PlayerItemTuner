@@ -4,8 +4,8 @@ Datapack to overwrite the player's items very easily.
 
 ## 動作確認済みバージョン / Verified minecraft versions
 
-- 1.18
-- 1.18.1
+- 1.19
+- 1.18.x
 
 ## 使い方 / How To Use
 
