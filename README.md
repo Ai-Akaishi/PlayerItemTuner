@@ -1,4 +1,5 @@
 # PlayerItemTuner
+
 Datapack to overwrite the player's items very easily.  
 プレイヤーのアイテムをとても簡単に書き換えるためのデータパック
 
@@ -74,7 +75,7 @@ Slotが昇順になるように(但しoffhandの-106bは最後)アイテムを�
 例）指定していないスロットは空気にする  
 /data modify storage player_item_tuner: result.fill set value {id:"minecraft:air"}  
 例）指定していないスロットはりんご64個にする  
-/data modify storage player_item_tuner: result.fill set value {id:"minecraft:air",Count:64b}  
+/data modify storage player_item_tuner: result.fill set value {id:"minecraft:apple",Count:64b}  
 ```
 3. 修正を適用  
 ```nim
